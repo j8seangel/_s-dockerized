@@ -1,0 +1,17 @@
+{
+  "name": "_s-dockerized",
+  "version": "1.0.0",
+  "description": "Wordpress base theme with docker and sass compiler",
+  "scripts": {
+    "sass": "node-sass -w --include-path theme/sass theme/sass/style.scss  theme/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j8seangel/_s-dockerized"
+  },
+  "author": "j8seangel",
+  "license": "GPLv2"
+}

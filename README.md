@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
-
-_s
+_s vitamined with Docker and sass compiler
 ===
 
 Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+
+Also you can set the environment for develop with docker and compile the sass with npm.
 
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 
@@ -20,9 +20,7 @@ My ultra-minimal CSS might make me look like theme tartare but that means less s
 Getting Started
 ---------------
 
-If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
-
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium`), and then you'll need to do a five-step find and replace on the name in all the templates.
+The first thing you want to do is clone the repo and copy the `_s` directory and change the name to something else (like, say, `megatherium`), and then you'll need to do a five-step find and replace on the name in all the templates.
 
 1. Search for `'_s'` (inside single quotations) to capture the text domain.
 2. Search for `_s_` to capture all the function names.
@@ -38,8 +36,25 @@ OR
 * Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium</code>
 * Search for: `_s-` and replace with: `megatherium-`
 
-Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
+
+Then:
+
+1. Update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
+2. Update the theme name in docker-compose.yml.
+
+
+Preparing the environment with docker
+===
+
+1. Install docker: https://docs.docker.com/mac/
+2. Run `docker-compose up`
+3. Just go to 192.168.99.100:8080 and enjoy with your new wordpress prepared to develop the new base theme!
+
+Develop
+===
+
+Run `npm install` and `npm run sass` to compile the css.
 
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
-Good luck!
+Enjoy ! 😄 
