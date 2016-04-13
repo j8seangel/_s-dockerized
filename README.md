@@ -24,7 +24,3 @@ Run `npm install` and `npm run sass` to compile the css.
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
 Enjoy ! 😄
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/j8seangel/_s-vitamined/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
