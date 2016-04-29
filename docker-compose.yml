@@ -1,5 +1,6 @@
 wordpress:
-  image: wordpress
+  # image: wordpress
+  image: j8seangel/wp-nocache
   links:
     - db:mysql
   ports:

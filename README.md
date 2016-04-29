@@ -10,6 +10,8 @@ Preparing the environment with docker
 2. Run `docker-compose up`
 3. Just go to 192.168.99.100:8080 and enjoy with your new wordpress prepared for developing the new base theme!
 
+  Note: by default it will install a custom docker container without cache, if you prefer cache can use the wordpress image in docker-compose.
+
 Getting Started
 ---------------
 
